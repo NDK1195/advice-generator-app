@@ -15,11 +15,22 @@
     <title>Frontend Mentor | Advice generator app</title>
     </style>
   </head>
-  <body>
-    Advice #<!-- Advice ID goes here -->
+  <body class="grid min-h-dvh bg-dark-blue place-items-center">
+    <div class="bg-dark-grayish-blue rounded-[10px] max-w-[540px] mx-4 sm:mx-0 px-6 pt-10 pb-16 lg:px-12 lg:pt-12 lg:pb-[72px] text-center shadow-box relative">
 
-    "<!-- Advice text goes here -->"
+      <h1 class="text-neon-green text-[11px] font-extrabold leading-none tracking-[3.457px] lg:text-[13px] lg:tracking-[4.086px] mb-6">Advice #<span id="advice-id"></span></h1>
 
+      <p class="text-light-cyan text-2xl font-extrabold leading-none tracking-[-0.257px] mb-6 lg:mb-10 lg:text-[28px] lg:tracking-[-0.3px]" id="advice-text"></p>
+
+      <picture>
+        <source media="(min-width: 640px)" srcset="./images/pattern-divider-desktop.svg">
+        <img src="./images/pattern-divider-mobile.svg" alt="pattern divider" class="mx-auto">
+      </picture>
+
+      <div class="absolute left-1/2 -translate-x-1/2 -bottom-8 bg-neon-green size-16 rounded-full flex items-center justify-center hover:shadow-dice transition-all cursor-pointer" id="btn-generate">
+        <img src="./images/icon-dice.svg" alt="icon dice">
+      </div>
+    </div>
    <script src="./src/index.js"></script>
   </body>
 </html>
