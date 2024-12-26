@@ -8,8 +8,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/NDK1195/huddle-landing-page-with-single-introductory-section)
-- Live Site URL: [Live site URL here](https://ndk1195.github.io/huddle-landing-page-with-single-introductory-section/)
+- Solution URL: [Solution URL here](https://github.com/NDK1195/advice-generator-app)
+- Live Site URL: [Live site URL here](https://ndk1195.github.io/advice-generator-app/)
 
 ### Built with
 
